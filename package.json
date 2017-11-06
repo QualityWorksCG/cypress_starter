@@ -1,0 +1,36 @@
+{
+  "name": "cypress_tests",
+  "version": "1.0.0",
+  "description": "Cypress tests",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^3.5.0",
+    "axios": "^0.17.0",
+    "cypress": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "cypress": "^1.0.2"
+  },
+  "scripts": {
+      "cypress":"cypress open"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QualityWorksCG/cypress_starter.git"
+  },
+  "keywords": [
+    "cypress",
+    "QualityWorkscg"
+  ],
+  "author": "Janique Morris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QualityWorksCG/cypress_starter/issues"
+  },
+  "homepage": "https://github.com/QualityWorksCG/cypress_starter#readme"
+}
